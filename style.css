@@ -30,7 +30,7 @@ html {
 .search-box{
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
-  /*display: none;*/
+  display: none;
   width: 180px;          /* Tamang lapad lang para sa title ng movie */
   height: 30px;          /* Mas mababa sa 50px ng header para hindi sumayad */
   padding: 0 10px;       /* Paluwag sa loob para hindi dikit ang text sa kanto */
