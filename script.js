@@ -1,10 +1,11 @@
 const logo = document.querySelector(".logoleft");
-const title = document.querySelector("app-title");
+const title = document.querySelector(".app-title");
 const searchBox = document.querySelector(".search-box");
 const icon = document.querySelector(".search-icon");
 
 icon.addEventListener('click', 
 function() {
+ if (searchBox.style.display === "block") {
  searchBox.style.display = "none";    // Itago ang search box
     logo.style.display = "block";        // Ibalik ang logo
     title.style.display = "block";       // Ibalik ang title
