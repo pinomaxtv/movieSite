@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  background: 50% 50% no-repeat
+    url('data:image/svg+xml,<svg viewBox="-20 -5 60 40" width="140" xmlns="http://www.w3.org/2000/svg" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Built on CodePen</text></svg>');
+}
+.topbar-ko{
+  background-color: gray;
+  height: 50px;
+/*gawing flexible ang header linear*/
+  display: flex;
+  /*ilagay sa gilid mga anak nya*/
+  justify-content: flex-start;
+  /*nakagitna dapat mga anak nya*/
+  align-items: center;
+  /*ipag layo agwat sila kunti*/
+  gap: 10px;
+  /*wag idikit sa gilid*/
+  padding: 5px;
+}
+
+.logoleft{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.app-title{
+  color: white;
+  font-size: 10px;
+}
+.search-box{
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+  /*display: none;*/
+  width: 180px;          /* Tamang lapad lang para sa title ng movie */
+  height: 30px;          /* Mas mababa sa 50px ng header para hindi sumayad */
+  padding: 0 10px;       /* Paluwag sa loob para hindi dikit ang text sa kanto */
+  outline: none;
+}
+
+.search-icon{
+  width: 20px;
+  height
+: 20px;
+  margin-left: auto;
+}
