@@ -4,7 +4,7 @@ html {
     url('data:image/svg+xml,<svg viewBox="-20 -5 60 40" width="140" xmlns="https://i.ibb.co/8DmQ1jGQ/logo.png" opacity="0.2"><path d="M1 8l11-7 11 7v8l-11 7-11-7zm0 0l11 8 11-8m0 8L12 8 1 16M12 1v7m0 8v7" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="2"/><text x="-12" y="32" font-size="5" font-family="monospace" fill="currentColor">Develope by roderick almaras</text></svg>');
 }
 .topbar-ko{
-  background-color: black;
+  background-color: #222;
   height: 50px;
 /*gawing flexible ang header linear*/
   display: flex;
@@ -13,7 +13,12 @@ html {
   /*nakagitna dapat mga anak nya*/
   align-items: center;
   /*ipag layo agwat sila kunti*/
-  gap: 10px;
+  gap: 10px;.hero-banner {
+  height: 420px;             /* Taas ng poster */
+  background-color: #222;    /* Pansamantalang madilim na kulay */
+  border-radius: 25px;       /* Pabilog ang apat na kanto */
+  margin: 15px;              /* Layo sa gilid ng screen para lumutang ang card */
+  }
   /*wag idikit sa gilid*/
   padding: 5px;
 }
@@ -35,6 +40,7 @@ border-bottom-left-radius: 10px;
   height: 30px;          /* Mas mababa sa 50px ng header para hindi sumayad */
   padding: 0 10px;       /* Paluwag sa loob para hindi dikit ang text sa kanto */
   outline: none;
+  border: none;
 }
 
 .search-icon{
@@ -44,4 +50,11 @@ border-bottom-left-radius: 10px;
   margin-left: auto;
   filter: invert(1);
   
+}
+/*for hero banner na ito*/
+.hero-banner {
+  height: 420px;             /* Taas ng poster */
+  background-color: #222;    /* Pansamantalang madilim na kulay */
+  border-radius: 25px;       /* Pabilog ang apat na kanto */
+  margin: 15px;              /* Layo sa gilid ng screen para lumutang ang card */
 }
